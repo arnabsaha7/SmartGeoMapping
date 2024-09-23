@@ -18,22 +18,6 @@ This Jupyter notebook demonstrates the process of performing Random Forest class
 5. [FOLIUM App](#folium-app)
 6. [Geemap](#geemap)
 
-## Notebook Overview
-
->### 1. Initializing Earth Engine and Import Libraries
->- Set up the Google Earth Engine environment.
->- Import necessary libraries for data manipulation and visualization.
->### 2. Define a Region of Interest
->- Specify the geographic area for analysis using coordinates or a shapefile.
->### 3. Load LANDSAT 8 Data
->- Access and load relevant LANDSAT 8 imagery from Google Earth Engine.
->### 4. Classification Model
->- Implement a Random Forest classification model on the loaded LANDSAT data.
->- Evaluate the model's performance and visualize the results.
->### 5. FOLIUM App
->- Create an interactive web map using the FOLIUM library to display classified results.
->### 6. Geemap
->- Utilize Geemap for advanced mapping capabilities to enhance visualizations of the results.
 
 ## Prerequisites
 
@@ -68,19 +52,18 @@ Here are some visual outputs generated from the analysis:
 
 <p align="center">
   <div style="display:inline-block; margin:10px; text-align:center;">
-    <img src="maps/original.png" alt="Original LANDSAT Image" height="200"/>
-    <div>Original LANDSAT Image</div>
+    <img src="maps/original.png" alt="Original LANDSAT Image" width="250" style="display: inline-block;"/>
+    <div style="margin-top: 5px;">Original LANDSAT Image</div>
   </div>
   <div style="display:inline-block; margin:10px; text-align:center;">
-    <img src="maps/landsat.png" alt="LANDSAT 8 Data" height="200"/>
-    <div>LANDSAT 8 Data</div>
+    <img src="maps/landsat.png" alt="LANDSAT 8 Data" width="250" style="display: inline-block;"/>
+    <div style="margin-top: 5px;">LANDSAT 8 Data</div>
   </div>
   <div style="display:inline-block; margin:10px; text-align:center;">
-    <img src="maps/classification.png" alt="Classification Result" height="200"/>
-    <div>Classification Result</div>
+    <img src="maps/classification.png" alt="Classification Result" width="250" style="display: inline-block;"/>
+    <div style="margin-top: 5px;">Classification Result</div>
   </div>
 </p>
-
 
 ## License
 
