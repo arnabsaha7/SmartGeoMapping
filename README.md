@@ -51,19 +51,20 @@ This Jupyter notebook demonstrates the process of performing Random Forest class
 Here are some visual outputs generated from the analysis:
 
 <p align="center">
-  <div style="display:inline-block; margin:10px; text-align:center;">
-    <img src="maps/original.png" alt="Original LANDSAT Image" width="250" style="display: inline-block;"/>
-    <div style="margin-top: 5px;">Original LANDSAT Image</div>
-  </div>
-  <div style="display:inline-block; margin:10px; text-align:center;">
-    <img src="maps/landsat.png" alt="LANDSAT 8 Data" width="250" style="display: inline-block;"/>
-    <div style="margin-top: 5px;">LANDSAT 8 Data</div>
-  </div>
-  <div style="display:inline-block; margin:10px; text-align:center;">
-    <img src="maps/classification.png" alt="Classification Result" width="250" style="display: inline-block;"/>
-    <div style="margin-top: 5px;">Classification Result</div>
-  </div>
+  <span style="margin: 10px; text-align: center; display: inline-block;">
+    <img src="maps/original.png" alt="Original LANDSAT Image" height="400" />
+    <br>Original Map Image
+  </span>
+  <span style="margin: 10px; text-align: center; display: inline-block;">
+    <img src="maps/landsat.png" alt="LANDSAT 8 Data" height="400" />
+    <br>LANDSAT 8 Data
+  </span>
+  <span style="margin: 10px; text-align: center; display: inline-block;">
+    <img src="maps/classification.png" alt="Classification Result" height="400" />
+    <br>Classification Result
+  </span>
 </p>
+
 
 ## License
 
@@ -71,8 +72,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Google Earth Engine team
-- LANDSAT data providers
+- `Google Earth Engine` team
+- `LANDSAT 8` data providers
 - Contributors to the libraries used
 
 
