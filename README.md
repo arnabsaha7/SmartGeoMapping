@@ -1,4 +1,4 @@
-# Random Forest Classification with LANDSAT 8
+# Random Forest Classification with LANDSAT 8 Data
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg?logo=python&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-6.0%2B-orange.svg?logo=jupyter&logoColor=white)
